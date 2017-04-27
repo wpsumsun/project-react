@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
+import Welcome from './Welcome'
 
 ReactDOM.render(
-  <h1>H， World!</h1>,
+  <Welcome name='react'/>,
   document.getElementById('root')
-);
+)
