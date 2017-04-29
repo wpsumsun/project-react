@@ -1,19 +1,8 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+body{
   background: #3999d5;
 }
-#root h1{
-  color: #fff;
-  margin-top: 300px;
-  text-align: center;
-}
-#root h2{
-  color: #fff;
-  text-align: center;
+#root{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
 }
