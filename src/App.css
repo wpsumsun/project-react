@@ -10,10 +10,12 @@
   box-shadow: 0 0 1em hsla(0,0%,0%,0.15);
   text-align: center;
 }
-.inputWrap input[type=text]{
-    padding-left: 10px;
-    height: 24px;
-}
 .App ol li{
   margin: 5px 0;
+}
+.App > .todoList> li:nth-child(odd){
+  background: #eee;
+}
+.App > .todoList> li:nth-child(even){
+  background: transparent;
 }
