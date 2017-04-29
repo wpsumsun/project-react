@@ -30,7 +30,7 @@ class App extends Component {
       <div className="App">
         <h1>我的待办</h1>
         <div className="inputWrap">
-          <TodoInput content={this.state.newTodo}/>
+          <TodoInput content={this.state.newTodo} onSubmit={this.addTodo}/>
         </div>
         <ol>
           {todos}
@@ -38,6 +38,9 @@ class App extends Component {
       </div>
     );
   }
+  addTodo(){
+      console.log('我添加了一个todo')
+    }
 }
 
 export default App;
