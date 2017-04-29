@@ -4,10 +4,12 @@
   "private": true,
   "homepage": "https://wpsumsun.github.io/project-react/build",
   "dependencies": {
+    "normalize.css": "^6.0.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
   "devDependencies": {
+    "normalize":"^6.0.0",
     "gh-pages": "^0.12.0",
     "react-scripts": "0.9.5"
   },
@@ -18,6 +20,5 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   }
 }
